@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #a5a5a5;
+  max-width: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+  background-color: wheat;
+  margin-top: 400px;
+}
+
+.content {
+  height: 400px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+}
+
+li {
+  margin-top: 80px;
+}
+
+p {
+  font-size: large;
+}
+
+.body {
+    background-color: antiquewhite;
+    background-position: center;
+          /* Center the image */
+}
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+            .item1 {
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              text-align: center;
+              grid-column-start: 2;
+              grid-column-end: 3;
+              grid-row-start: 1;
+              grid-row-end: 4;
+            }
+      
+            .item2 {
+              background-image: url("images/pushup.jpeg");
+              background-size: cover;
+              height: 117px;
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              text-align: center;
+              grid-column-start: 1;
+              grid-column-end: 2;
+              grid-row-start: 1;
+              grid-row-end: 2;
+            }
+      
+            .item3 {
+              background-image: url("images/running.jpeg");
+              background-size: cover;
+              height: 120px;
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              text-align: center;
+              grid-column-start: 1;
+              grid-column-end: 2;
+              grid-row-start: 2;
+              grid-row-end: 3;
+            }
+            .item4 {
+              background-image: url("images/dog\ plank.jpeg");
+              background-size: cover;
+              height: 120px;
+              border: 1px solid rgba(0, 0, 0, 0.8);
+              text-align: center;
+              grid-column-start: 1;
+              grid-column-end: 2;
+              grid-row-start: 3;
+              grid-row-end: 4;
+                        }
+
+.options {
+  background-color: beige;
+}
+
+.rep {
+  background-color: beige;
+}
+
+.img {
+    background-image: url("images/pushup.jpeg");
+    background-size: contain;
+    height: 200px;
+    width: 257px;
+    margin-left: 60px;
+    background-color: beige;
+}
+
+
+.dura {
+  background-color: beige;
+}
+
+.dimg {
+  background-image: url("images/running.jpeg");
+  background-size: contain;
+  height: 200px;
+  width: 257px;
+  margin-left: 60px;
+  background-color: beige;
+}
+
+.pimg {
+  background-image: url("images/dog\ plank.jpeg");
+  background-size: contain;
+  height: 200px;
+  width: 257px;
+  margin-left: 60px;
+  background-color: beige;
+}
